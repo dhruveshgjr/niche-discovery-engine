@@ -1,0 +1,194 @@
+[
+  {
+    "source": "hacker_news",
+    "url": "https://news.ycombinator.com/item?id=900001",
+    "title": "Ask HN: How do you extract data from sites that have no API?",
+    "body": "I run a small price-tracking side project. Half the sites I need have no API at all, so I spend hours every week copying tables by hand into spreadsheets. I've tried Zapier but it doesn't cover these sites. I would happily pay $50/month for a tool that turns any logged-in page into clean JSON. What do you all use?",
+    "date_posted": "2026-10-28T14:22:00",
+    "engagement": 214
+  },
+  {
+    "source": "hacker_news",
+    "url": "https://news.ycombinator.com/item?id=900002",
+    "title": "Show HN: I built a scraper because our CRM has no export API",
+    "body": "Our CRM vendor refuses to ship an export API, so every Monday I manually export CSVs one account at a time. It's a tedious bottleneck for our whole sales team. I wrote a session-cookie scraper that hits their internal endpoints directly and syncs to Postgres. Wish I didn't have to maintain it myself.",
+    "date_posted": "2026-10-25T09:10:00",
+    "engagement": 158
+  },
+  {
+    "source": "hacker_news",
+    "url": "https://news.ycombinator.com/item?id=900003",
+    "title": "Ask HN: Tools for monitoring competitor pricing without an engineering team?",
+    "body": "We're a 4-person SaaS founder team. Checking competitor pricing pages every morning is a manual chore and we constantly miss changes. No API exists for most of these pages. Is there a lightweight extraction tool that just watches pages and alerts us? Happy to pay for something reliable.",
+    "date_posted": "2026-10-30T18:45:00",
+    "engagement": 96
+  },
+  {
+    "source": "hacker_news",
+    "url": "https://news.ycombinator.com/item?id=900004",
+    "title": "The hidden cost of missing APIs in vertical SaaS",
+    "body": "Every vertical SaaS tool we buy eventually becomes a data prison. No export, no API, no webhooks. Our ops manager spends 10 hours a week doing manual data entry between systems. This integration gap is a real product opportunity nobody is serving well.",
+    "date_posted": "2026-11-01T11:03:00",
+    "engagement": 342
+  },
+  {
+    "source": "reddit",
+    "url": "https://www.reddit.com/r/SaaS/comments/demo01/",
+    "title": "Customers churn in onboarding because of manual CSV exports",
+    "body": "Running a B2B SaaS and our biggest onboarding bottleneck: new customers must export CSVs from their old tools by hand, one report at a time. Their old vendors have no API. We lose deals over this. Would pay for an embedded extraction widget that pulls their data automatically.",
+    "date_posted": "2026-10-27T08:15:00",
+    "engagement": 87
+  },
+  {
+    "source": "reddit",
+    "url": "https://www.reddit.com/r/Entrepreneur/comments/demo02/",
+    "title": "Spending 10 hours a week copy-pasting leads. There must be a better way",
+    "body": "I run a lead-gen agency. My VA copies lead lists from web directories into Google Sheets every single day. It's repetitive, error-prone manual work. The directories have no API and block basic scraping. I'd pay real money for a reliable extraction service with human-grade sessions.",
+    "date_posted": "2026-10-29T16:40:00",
+    "engagement": 132
+  },
+  {
+    "source": "reddit",
+    "url": "https://www.reddit.com/r/smallbusiness/comments/demo03/",
+    "title": "Supplier has no API — checking inventory manually every morning",
+    "body": "My supplier's portal has no API and no export button. Every morning I log in and copy stock levels into Excel by hand so our store doesn't oversell. It's a 45-minute daily nightmare. Any tool that can extract data from a cookie-protected portal on a schedule?",
+    "date_posted": "2026-10-26T07:05:00",
+    "engagement": 64
+  },
+  {
+    "source": "reddit",
+    "url": "https://www.reddit.com/r/SaaS/comments/demo04/",
+    "title": "How are you syncing data out of tools with no public API?",
+    "body": "Our analytics stack depends on three tools that simply have no API. Right now we do manual exports every week and stitch spreadsheets together. Zapier can't help. Considering hiring a developer to build scrapers but worried about maintenance. What does everyone else do?",
+    "date_posted": "2026-11-02T12:30:00",
+    "engagement": 58
+  },
+  {
+    "source": "reddit",
+    "url": "https://www.reddit.com/r/Entrepreneur/comments/demo05/",
+    "title": "Reporting across 30 client ad accounts is killing my agency",
+    "body": "Every Friday my team takes manual screenshots of Facebook and X ad dashboards for 30 clients and pastes metrics into a reporting spreadsheet. It takes 6 hours. The APIs that exist are rate-limited and miss half the metrics. I wish there was a tool that just produced the client report.",
+    "date_posted": "2026-10-31T19:22:00",
+    "engagement": 201
+  },
+  {
+    "source": "reddit",
+    "url": "https://www.reddit.com/r/smallbusiness/comments/demo06/",
+    "title": "Bookkeeper retyping PDF invoices into Excel — 20 hrs/week",
+    "body": "We're a small business drowning in PDF invoices. Our bookkeeper does manual data entry into Excel, about 20 hours a week. Tried two OCR tools but both choke on our suppliers' layouts. Would budget $200/mo for extraction that actually works on messy PDFs.",
+    "date_posted": "2026-11-03T10:12:00",
+    "engagement": 45
+  },
+  {
+    "source": "job_boards",
+    "url": "https://news.ycombinator.com/item?id=900101",
+    "title": "Acme Data (YC W24) — Founding Engineer, Extraction Pipelines",
+    "body": "We're hiring a founding engineer to build internal data extraction pipelines. Our customers' data lives behind logins with no API, and today we move it with fragile manual processes. Budget $160-200k. You'll own the scraper infrastructure end to end.",
+    "date_posted": "2026-11-01T00:00:00",
+    "engagement": 0
+  },
+  {
+    "source": "job_boards",
+    "url": "https://weworkremotely.com/remote-jobs/demo01",
+    "title": "Operations Assistant — Manual Data Entry & Reporting",
+    "body": "Role involves 20+ hours per week of manual data entry: copying order data from partner portals (no API available) into spreadsheets, preparing weekly reports by hand. We know this is a bottleneck and want to automate it eventually.",
+    "date_posted": "2026-10-24T00:00:00",
+    "engagement": 0
+  },
+  {
+    "source": "job_boards",
+    "url": "https://remoteok.com/remote-jobs/demo02",
+    "title": "Senior Web Scraping Engineer — E-commerce Intelligence",
+    "body": "Hiring a scraping engineer to extract pricing and inventory data from 200+ retail sites. Most have no API and aggressive bot protection. You'll build session-based extraction services. $140-180k, remote.",
+    "date_posted": "2026-10-28T00:00:00",
+    "engagement": 0
+  },
+  {
+    "source": "job_boards",
+    "url": "https://weworkremotely.com/remote-jobs/demo03",
+    "title": "Revenue Ops Analyst — CRM Hygiene & Manual Imports",
+    "body": "Own our CRM data quality. Today that means weekly manual CSV imports from five tools with no integration API, deduping spreadsheets by hand, and chasing reps. We want someone who feels this pain and wants to fix it.",
+    "date_posted": "2026-11-02T00:00:00",
+    "engagement": 0
+  },
+  {
+    "source": "yc_rfs",
+    "url": "https://www.ycombinator.com/rfs#data-extraction",
+    "title": "RFS: Automatic data extraction from unstructured documents",
+    "body": "Businesses still employ armies of people to do manual data entry from PDFs, scans, and portals. We want founders building extraction systems that turn unstructured documents and API-less web tools into structured, reliable data pipelines.",
+    "date_posted": "2026-10-15T00:00:00",
+    "engagement": 0
+  },
+  {
+    "source": "yc_rfs",
+    "url": "https://www.ycombinator.com/rfs#internal-tools",
+    "title": "RFS: Tools that replace repetitive manual workflows",
+    "body": "Every company has workflows where humans copy data between systems because no API exists. These manual bottlenecks are a massive hidden cost. We're interested in software that eliminates copy-paste operations entirely.",
+    "date_posted": "2026-10-15T00:00:00",
+    "engagement": 0
+  },
+  {
+    "source": "x",
+    "url": "https://x.com/i/web/status/demo0001",
+    "title": "Tweet analytics manual reporting",
+    "body": "Just spent 3 hours copying tweet analytics into a spreadsheet for a client. There has to be a better way. The API is paywalled now and the dashboard has no export. Would pay for a tool that does this automatically.",
+    "date_posted": "2026-11-04T15:00:00",
+    "engagement": 412
+  },
+  {
+    "source": "x",
+    "url": "https://x.com/i/web/status/demo0002",
+    "title": "No API, no problem? No, big problem.",
+    "body": "Our entire industry runs on a SaaS tool with no API. Every. Single. Report. Is. Manual. Copy paste from dashboard to Excel, every week, 4 hours minimum. Someone please build an extraction layer for this space.",
+    "date_posted": "2026-11-05T09:30:00",
+    "engagement": 238
+  },
+  {
+    "source": "x",
+    "url": "https://x.com/i/web/status/demo0003",
+    "title": "Scraping maintenance is a full-time job",
+    "body": "Maintaining our internal scrapers is a nightmare. Selectors break weekly, sessions expire, and no official API exists for half our data sources. I'd budget $500/mo for managed extraction that just works.",
+    "date_posted": "2026-11-05T21:14:00",
+    "engagement": 167
+  },
+  {
+    "source": "facebook",
+    "url": "https://www.facebook.com/groups/agencyowners/posts/demo01/",
+    "title": "Agency owners: weekly client reporting",
+    "body": "How are you all reporting ad performance across 30+ client accounts? My team does manual screenshots every Friday and pastes numbers into a master spreadsheet. 6 hours of tedious work every week. The native APIs miss half the metrics we need. Would love a tool that extracts everything and builds the report.",
+    "date_posted": "2026-11-03T13:00:00",
+    "engagement": 89
+  },
+  {
+    "source": "facebook",
+    "url": "https://www.facebook.com/groups/smallbiztools/posts/demo02/",
+    "title": "Inventory sync without an API?",
+    "body": "Fellow small business owners — our distributor's ordering portal has no API and no CSV export. We check stock manually every morning and retype it into our system. Constantly overselling because of stale data. Anyone found an extraction tool that handles login-protected sites?",
+    "date_posted": "2026-11-04T08:45:00",
+    "engagement": 54
+  },
+  {
+    "source": "facebook",
+    "url": "https://www.facebook.com/groups/recruiters/posts/demo03/",
+    "title": "Recruiters: candidate data entry is out of control",
+    "body": "Our recruiting team copies candidate profiles from job boards into our ATS by hand — no API on most boards. 15 hours a week of manual data entry across the team. Happy to pay for extraction that respects our logins and just syncs the data.",
+    "date_posted": "2026-11-06T11:20:00",
+    "engagement": 73
+  },
+  {
+    "source": "hacker_news",
+    "url": "https://news.ycombinator.com/item?id=900005",
+    "title": "Ask HN: What repetitive work do you still do by hand in 2026?",
+    "body": "Curious what manual bottlenecks survive in your workflow. For me: moving data between a government portal (no API, obviously) and our internal tools. Every week, same copy-paste ritual. Considering building a micro-SaaS around it — would you pay for that?",
+    "date_posted": "2026-11-06T17:55:00",
+    "engagement": 129
+  },
+  {
+    "source": "hacker_news",
+    "url": "https://news.ycombinator.com/item?id=900006",
+    "title": "Beautiful Soup 4.14 released",
+    "body": "New release of the HTML parsing library. Changelog includes performance improvements and bug fixes.",
+    "date_posted": "2026-11-02T10:00:00",
+    "engagement": 88
+  }
+]

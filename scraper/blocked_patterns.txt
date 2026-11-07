@@ -1,0 +1,12 @@
+# Niche Discovery Engine — safety blocklist
+# One regex per line, matched case-insensitively against post title+body.
+# Deliberately phrase-level patterns to avoid false positives on normal
+# business language (e.g. "kill the manual process" stays safe).
+# Keep aligned with tests/test_safety.py.
+\b(porn|porno|xxx|nsfw|hentai|onlyfans|camgirl|escort service)\b
+\b(cocaine|methamphetamine|heroin|fentanyl|mdma|ecstasy)\b
+\b(carding|cvv dumps?|stolen credit cards?|counterfeit (money|currency))\b
+\b(buy|sell|cheap|discount) (guns?|firearms?|ammo|ammunition|weapons?|explosives)\b
+\b(guns?|firearms?|ammunition|explosives) (for sale|shop|store)\b
+\b(ethnic cleansing|white power|white supremacy|kill all|heil hitler)\b
+\b(n[i1]gg[e3]rs?|f[a4]gg[o0]ts?|k[i1]kes?|ch[i1]nks?|sp[i1]cs?)\b

@@ -1,0 +1,36 @@
+[project]
+name = "niche-discovery-engine"
+version = "0.1.0"
+description = "System 1: autonomous niche discovery engine. Multi-agent LangGraph pipeline that mines pain points from public sources, clusters them, and scores product opportunities."
+requires-python = ">=3.12"
+dependencies = [
+    "langgraph>=0.2.0",
+    "sqlmodel>=0.0.22",
+    "streamlit>=1.40.0",
+    "pandas>=2.2.0",
+    "openai>=1.50.0",
+    "httpx>=0.27.0",
+    "feedparser>=6.0.11",
+    "pydantic-settings>=2.5.0",
+    "beautifulsoup4>=4.12.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.0",
+    "ruff>=0.8.0",
+]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+exclude = [".venv"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
